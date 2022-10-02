@@ -158,12 +158,13 @@
     }
 
     p {
-        margin-bottom: 0px;
+        margin-bottom: 5px;
         font-size: 20px;
         color: black;
         letter-spacing: 3px;
         font-weight: 700;
-
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     a:hover {
@@ -177,23 +178,21 @@
 
         width: 100%;
         margin: 0;
-        height: 5rem;
-        padding-inline: 40px;
+        height: 7rem;
+        padding-inline: 25px;
         background-color: darkorchid;
 
 
     }
 
-    p {
-        padding-left: 20px;
-        padding-right: 20px;
+    nav ul {
+        padding-left: 1px;
     }
-
 
     nav ul li a {
         color: #fff;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         text-transform: uppercase;
         margin: 0;
@@ -324,7 +323,7 @@
     /*CONTATO*/
 
     .card-contato {
-        height: 20px;
-        width: 20px;
+        height: 70px;
+        width: 70px;
     }
 }
