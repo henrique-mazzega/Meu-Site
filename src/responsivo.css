@@ -171,7 +171,7 @@
 
         width: 100%;
         margin: 0;
-        height: 7rem;
+        height: 5rem;
 
         background-color: darkorchid;
 
@@ -189,6 +189,7 @@
         padding-bottom: 5px;
         padding-left: 3px;
         padding-right: 10px;
+        padding-inline: 2px;
 
 
     }
@@ -196,7 +197,7 @@
     a:hover {
         color: #085078;
         background-color: white;
-        -webkit-transform: scale(1.2);
+        -webkit-transform: scale(1.0);
         border-radius: 50%;
     }
 
@@ -270,8 +271,8 @@
     }
 
     .cards {
-        height: 200px;
-        width: 200px;
+        height: 70px;
+        width: 70px;
     }
 
     .conhecimentos .card .content {
