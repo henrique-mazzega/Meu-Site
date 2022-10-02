@@ -17,7 +17,7 @@ const Conhecimentos = props => (
             <div class="card">
 
                 <div class="content">
-                    <img src={Html} alt="html"></img>
+                    <img class="cards" src={Html} alt="html"></img>
                     <h5>HTML</h5>
                 </div>
 
@@ -26,7 +26,7 @@ const Conhecimentos = props => (
             <div class="card">
 
                 <div class="content">
-                    <img src={Css} alt="Css"></img>
+                    <img class="cards" src={Css} alt="Css"></img>
                     <h5>CSS</h5>
                 </div>
 
@@ -36,7 +36,7 @@ const Conhecimentos = props => (
 
                 <div class="content">
 
-                    <img src={Js} alt="Js"></img>
+                    <img class="cards" src={Js} alt="Js"></img>
                     <h5>JAVASCRIPT</h5>
 
                 </div>
@@ -46,7 +46,7 @@ const Conhecimentos = props => (
 
                 <div class="content">
 
-                    <img src={ReactLogo} alt="ReactLogo"></img>
+                    <img class="cards" src={ReactLogo} alt="ReactLogo"></img>
                     <h5>REACT</h5>
 
                 </div>
@@ -56,7 +56,7 @@ const Conhecimentos = props => (
 
                 <div class="content">
 
-                    <img src={ReactLogo} alt="ReactLogo"></img>
+                    <img class="cards" src={ReactLogo} alt="ReactLogo"></img>
                     <h5>REACT NATIVE</h5>
 
                 </div>
@@ -66,7 +66,7 @@ const Conhecimentos = props => (
 
                 <div class="content">
 
-                    <img src={VueJs} alt="VueJs"></img>
+                    <img class="cards" src={VueJs} alt="VueJs"></img>
                     <h5>VUEJS</h5>
                 </div>
 
@@ -75,7 +75,7 @@ const Conhecimentos = props => (
 
                 <div class="content">
 
-                    <img src={NodeJs} alt="NodeJs"></img>
+                    <img class="cards" src={NodeJs} alt="NodeJs"></img>
                     <h5>NODEJS</h5>
 
                 </div>
@@ -85,8 +85,7 @@ const Conhecimentos = props => (
 
                 <div class="content">
 
-                    <img
-                        src={Csharp} alt="Csharp"></img>
+                    <img class="cards" src={Csharp} alt="Csharp"></img>
                     <h5>CSHARP</h5>
                 </div>
 
@@ -95,7 +94,7 @@ const Conhecimentos = props => (
 
                 <div class="content">
 
-                    <img src={Php} alt="Php"></img>
+                    <img class="cards" src={Php} alt="Php"></img>
                     <h5>PHP</h5>
 
                 </div>
