@@ -179,14 +179,10 @@
         width: 100%;
         margin: 0;
         height: 7rem;
-        padding-inline: 25px;
+
         background-color: darkorchid;
 
 
-    }
-
-    nav ul {
-        padding-left: 1px;
     }
 
     nav ul li a {
@@ -323,7 +319,7 @@
     /*CONTATO*/
 
     .card-contato {
-        height: 70px;
-        width: 70px;
+        height: 200px;
+        width: 200px;
     }
 }
