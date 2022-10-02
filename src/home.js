@@ -3,7 +3,7 @@ import Minhafoto from './IMG/minhafoto 2.png';
 import In from './IMG/linkedin-black.png';
 
 const Home = props => (
-    <div class="introduçao">
+    <div class="home">
         <img class="minhafoto" src={Minhafoto} alt="minhafoto"></img>
         <h1>Henrique Mazzega</h1>
         <h2>Iniciante em Desenvolvimento Web</h2>

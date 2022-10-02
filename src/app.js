@@ -1,16 +1,20 @@
 import React from 'react';
 import './menu.css';
-import './cards.css';
 import './style.css';
+import './responsivo.css';
+import './home.css';
+import './sobre.css';
+import './conhecimentos.css';
+import './contato.css';
 import Menu from './menu';
-import Content from './content';
+import Rotas from './rotas';
 import { BrowserRouter } from 'react-router-dom';
 
 const App = props => (
     <div id='app'>
         <BrowserRouter>
             <Menu></Menu>
-            <Content></Content>
+            <Rotas></Rotas>
 
         </BrowserRouter>
     </div>

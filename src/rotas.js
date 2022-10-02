@@ -3,18 +3,18 @@ import React from 'react';
 import Home from './home';
 import Sobre from './sobre';
 import Conhecimentos from './conhecimentos';
-import Contatos from './contatos';
+import Contato from './contato';
 
-const Content = props => (
-    <main class="content">
+const Rotas = props => (
+    <main class="rotas">
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/conhecimentos" element={<Conhecimentos />} />
-            <Route path="/contatos" element={<Contatos />} />
+            <Route path="/contatos" element={<Contato />} />
         </Routes>
     </main>
 )
 
-export default Content
+export default Rotas

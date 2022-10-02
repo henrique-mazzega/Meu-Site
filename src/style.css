@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
-
-
 body {
     margin: 0;
     padding: 0;
@@ -10,19 +8,6 @@ body {
     color: black(27, 27, 255);
     flex-direction: column;
     height: 100%;
-}
-
-
-.introduçao {
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: black;
-
 }
 
 
@@ -75,23 +60,6 @@ h5 {
 
 }
 
-.minhafoto {
-    height: 250px;
-    width: 230px;
-    border-radius: 50%;
-    border: 5px solid black;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-
-}
-
-.linkedin-foto {
-
-    padding: 0%;
-    width: 0px;
-    height: 0px;
-    margin-top: 5rem;
-}
 
 a {
     text-decoration: none;
@@ -119,51 +87,4 @@ a:hover {
     background-color: white;
     -webkit-transform: scale(1.5);
     border-radius: 50%;
-}
-
-.sobre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: black;
-
-
-
-}
-
-footer {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.wpp {
-    padding: 0%;
-    width: 0px;
-    height: 0px;
-
-
-
-}
-
-.in {
-    padding: 0%;
-    width: 0px;
-    height: 0px;
-
-
-
-}
-
-.git {
-    padding: 0%;
-    width: 0px;
-    height: 0px;
-
-
-
 }

@@ -1,0 +1,29 @@
+.home {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+
+}
+
+.minhafoto {
+    height: 250px;
+    width: 230px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.linkedin-foto {
+
+    padding: 0%;
+    width: 0px;
+    height: 0px;
+    margin-top: 5rem;
+}
