@@ -179,6 +179,7 @@
         margin: 0;
         height: 5rem;
         padding-inline: 40px;
+        background-color: darkorchid;
 
 
     }
@@ -188,10 +189,6 @@
         padding-right: 20px;
     }
 
-    h2 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 
     nav ul li a {
         color: #fff;
@@ -230,8 +227,8 @@
     }
 
     .minhafoto {
-        height: 150px;
-        width: 130px;
+        height: 100px;
+        width: 80px;
         border-radius: 50%;
         border: 5px solid black;
         margin-top: 2rem;
@@ -245,6 +242,8 @@
         width: 0px;
         height: 0px;
         margin-top: 3rem;
+        height: 40px;
+        width: 40px;
     }
 
     /*CONHECIMENTOS*/
@@ -264,8 +263,8 @@
     .conhecimentos .card {
 
         position: relative;
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
         margin: 20px;
         margin-top: 0;
         box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -324,14 +323,9 @@
 
     /*CONTATO*/
 
-    .cards {
-        height: 100px;
-        width: 100px;
-    }
-
     .card-contato {
-        height: 30px;
-        width: 30px;
+        height: 20px;
+        width: 20px;
     }
 
 
