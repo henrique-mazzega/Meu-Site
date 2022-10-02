@@ -12,7 +12,6 @@ body {
     height: 100%;
 }
 
-/*INTRODUÇAO*/
 
 .introduçao {
 
@@ -122,9 +121,6 @@ a:hover {
     border-radius: 50%;
 }
 
-
-/* SOBRE */
-
 .sobre {
     display: flex;
     flex-direction: column;
@@ -136,8 +132,6 @@ a:hover {
 
 
 }
-
-/*FOOTER*/
 
 footer {
 

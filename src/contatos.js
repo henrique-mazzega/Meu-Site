@@ -10,12 +10,12 @@ const Contatos = props => (
         <footer>
             <a class="wpp" href="https://web.whatsapp.com/send?phone=55027998630079" target="_blank"
                 rel="noopener noreferrer"><img
-                    src={Wpp}></img></a>
+                    src={Wpp} alt="Wpp"></img></a>
             <a class="in" href="https://www.linkedin.com/in/henrique-lopes-mazzega-88105a238/" target="_blank"
                 rel="noopener noreferrer"><img
-                    src={Lin}></img></a>
+                    src={Lin} alt="Lin"></img></a>
             <a class="git" href="https://github.com/henrique-mazzega" target="_blank" rel="noopener noreferrer">
-                <img src={Git}></img></a>
+                <img src={Git} alt="Git"></img></a>
         </footer>
     </div>
 )
