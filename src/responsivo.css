@@ -173,7 +173,7 @@
         margin: 0;
         height: 5rem;
 
-        background-color: darkorchid;
+        background-color: rgb(50, 204, 88);
 
 
     }
@@ -185,9 +185,9 @@
         font-weight: bold;
         text-transform: uppercase;
         margin: 0;
-        padding-inline: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-inline: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
 
 
     }
