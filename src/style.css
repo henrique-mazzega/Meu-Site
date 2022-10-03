@@ -85,6 +85,6 @@ p {
 a:hover {
     color: #085078;
     background-color: white;
-    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
     border-radius: 50%;
 }
