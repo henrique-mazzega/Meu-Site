@@ -183,11 +183,12 @@
         font-weight: bold;
         text-transform: uppercase;
         margin: 0;
-        padding-inline: 15px;
+        padding: 11px;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 3px;
         padding-right: 3px;
+        display: inline-flex;
 
 
     }
