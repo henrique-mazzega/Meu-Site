@@ -12,6 +12,10 @@
         padding-right: 20px;
     }
 
+    nav ul li {
+        padding-left: 30px;
+    }
+
     nav ul li a {
         color: #fff;
         text-decoration: none;
@@ -43,16 +47,67 @@
 
     }
 
+    .minhafoto {
+        height: 200px;
+        width: 200px;
+    }
 
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 30px;
+    }
+
+    h2,
+    h3 {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+
+    nav ul li {
+        padding-top: 9px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        padding-left: 20px;
+
+
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
 
     p {
         padding-left: 20px;
         padding-right: 20px;
+        font-size: 20px;
     }
 
-    nav ul {
-        display: flex;
+    .cards {
+        height: 70px;
+        width: 70px;
     }
+
+    .conhecimentos .card {
+        width: 150px;
+        height: 150px;
+        margin: 30px;
+    }
+
+
+
 }
 
 @media screen and (max-width: 700px) {
@@ -71,15 +126,25 @@
         padding-right: 20px;
     }
 
+    nav ul li {
+        padding-top: 9px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+
+
+    }
+
     nav ul li a {
         color: #fff;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         text-transform: uppercase;
         margin: 0;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
 
     }
 
@@ -94,7 +159,12 @@
 
 /* Celular */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 490px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
     h1 {
         text-transform: uppercase;
         letter-spacing: 6px;
@@ -142,7 +212,7 @@
         text-transform: uppercase;
         letter-spacing: 6px;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 0;
         margin-bottom: 3%;
 
@@ -159,7 +229,7 @@
     }
 
     nav {
-        background-color: coral;
+
         width: 100%;
         margin: 0;
         height: 6rem;
@@ -185,8 +255,8 @@
         margin: 0;
         padding-top: 5px;
         padding-bottom: 5px;
-        padding-left: 3px;
-        padding-right: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
         display: inline-flex;
 
 
