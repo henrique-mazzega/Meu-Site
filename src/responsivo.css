@@ -160,10 +160,6 @@
 /* Celular */
 
 @media screen and (max-width: 490px) {
-    body {
-        height: 100%;
-        width: 100%;
-    }
 
     h1 {
         text-transform: uppercase;
@@ -240,7 +236,7 @@
     nav ul li {
         padding-top: 9px;
         padding-bottom: 5px;
-
+        padding-left: 0;
         padding-right: 20px;
 
 
@@ -295,18 +291,6 @@
         height: 60px;
         width: 60px;
     }
-
-    .cards {
-        height: 20px;
-        width: 20px;
-    }
-
-    .conhecimentos .card {
-        width: 60px;
-        height: 60px;
-        margin: 5px;
-    }
-
 
     .contato-icon {
         height: 35px;
