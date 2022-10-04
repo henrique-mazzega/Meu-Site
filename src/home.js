@@ -10,7 +10,7 @@ const Home = props => (
         <div>
             <a class="linkedin-foto" href="https://www.linkedin.com/in/henrique-lopes-mazzega-88105a238/"
                 target="_blank" rel="noopener noreferrer">
-                <img src={In} alt="In"></img>
+                <img class="linkedin-home" src={In} alt="In"></img>
             </a>
         </div>
     </div>

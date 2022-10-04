@@ -37,7 +37,7 @@ const Conhecimentos = props => (
                 <div class="content">
 
                     <img class="cards" src={Js} alt="Js"></img>
-                    <h5>JAVASCRIPT</h5>
+                    <h5>JAVA SCRIPT</h5>
 
                 </div>
 
